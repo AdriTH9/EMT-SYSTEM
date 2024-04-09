@@ -10,6 +10,9 @@ public class Loguin extends JFrame implements ActionListener {
     private JButton btnCancelar;
     private JButton btnAbrir;
     private JPanel Contedor;
+    private JTextField txtNombre;
+    private JList lista;
+    private JTextField txtAbrir;
 
 
     public Loguin(){
@@ -21,11 +24,19 @@ public class Loguin extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btnAbrir){//capta todos los eventos que pasam n el jpanel,detecta el click
-            JOptionPane.showMessageDialog(null,"Hola mundo");//muestra un cuadro de dialogo chiquito
+            String textnombre;
+            textnombre=txtNombre.getText();//saco el contenido del componente
+            //lista.add("Hola",new Component);//add le pertenece a lista y es para agregar el texto
+            txtAbrir.setText(textnombre);
+            JOptionPane.showMessageDialog(null,"Que tal, buenas tardes. "+textnombre);//muestra un cuadro de dialogo chiquito
+
         }
         if (e.getSource() == btnCancelar){//capta todos los eventos que pasam n el jpanel,detecta el click
             System.out.println("Holav azul");
         }
 
+    }
+    public JPanel panelloguin(){
+        return this.Contedor;
     }
 }

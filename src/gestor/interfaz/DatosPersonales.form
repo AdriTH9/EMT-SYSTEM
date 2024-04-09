@@ -16,7 +16,7 @@
           <text value="ID"/>
         </properties>
       </component>
-      <component id="76fb2" class="javax.swing.JTextField" binding="textFielId">
+      <component id="76fb2" class="javax.swing.JTextField" binding="textId">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -91,6 +91,14 @@
           <background color="-3026220"/>
           <text value="Cerrar"/>
         </properties>
+      </component>
+      <component id="9b241" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
       </component>
     </children>
   </grid>
