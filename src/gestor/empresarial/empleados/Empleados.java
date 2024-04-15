@@ -3,7 +3,7 @@ package gestor.empresarial.empleados;//Declara que esta clase pertenece al paque
 import gestor.empresarial.contrato.Cargos;
 import gestor.errores.GestionErrores;
 //Declara una clase abstracta Empleados que implementa la interfaz iEmpleados.
-// Al ser abstracta, esta clase no puede ser instanciada
+// Al ser abstracta, esta clase no puede ser instanciada pero si puede heredar
 public abstract class Empleados implements iEmpleados {
     //Atibutos
     private int i;
@@ -16,7 +16,7 @@ public abstract class Empleados implements iEmpleados {
     public void addDatosPersonales (String z, String y, String x){
 
     }
-    //Método addContrato con pas de parámetros
+    //Método addContrato con paso de parámetros
     public void addContrato(int a, int b, Cargos c){
 
     }

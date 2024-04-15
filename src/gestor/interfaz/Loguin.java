@@ -11,7 +11,6 @@ public class Loguin extends JFrame implements ActionListener {
     private JButton btnAbrir;
     private JPanel Contedor;
     private JTextField txtNombre;
-    private JList lista;
     private JTextField txtAbrir;
 
 
