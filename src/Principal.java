@@ -17,7 +17,7 @@ import java.awt.Toolkit;
 
  class Principal {
     public static void main(String[] args) {
-        JFrame frame= new JFrame("Inicio de Sesion");//crea una venta nueva con un titulo
+        JFrame frame= new JFrame("EMT-SYSTEM");//crea una venta nueva con un titulo
         Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();//obtienen las dimensiones ancho y aalto de un monitor
         int x= (pantalla.width/2)-300;//calcula el centro, del largo del monitor
         int y=(pantalla.height/2)-200;//calcula el centro, del alto del monitor
